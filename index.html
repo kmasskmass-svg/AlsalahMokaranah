@@ -4167,12 +4167,6 @@ function StepsView({c,openShare}){
       <div style={{fontFamily:"'"+c.tf+"',serif",fontSize:20,fontWeight:700,color:"#F5E6C0",marginBottom:4}}>الصلاة من تكبيرة الإحرام إلى التسليم</div>
       <div style={{fontFamily:"'"+c.bf+"',sans-serif",color:"#A8C8B0",fontSize:13}}>{steps.length} مسألة — انقر لعرض التفاصيل والمشاركة بحسب المذهب</div>
     </div>
-    <div style={{display:"flex",flexDirection:"column",gap:5,marginBottom:14,background:"#fff",borderRadius:10,padding:"10px 12px",boxShadow:"0 1px 5px rgba(0,0,0,.06)"}}>
-      {steps.map(s=><button key={s.id} onClick={()=>{const el=document.getElementById("st"+s.id);if(el)el.scrollIntoView({behavior:"smooth",block:"start"});}} style={{display:"flex",alignItems:"center",gap:9,width:"100%",textAlign:"right",background:"transparent",border:"none",borderBottom:"1px solid #F0EAD8",padding:"7px 4px",cursor:"pointer"}}>
-        <span style={{minWidth:26,height:26,borderRadius:"50%",background:"#0D3D2A",color:"#C9A84C",fontSize:11,fontWeight:700,display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0}}>{s.step}</span>
-        <span style={{fontFamily:"'Cairo',sans-serif",fontSize:13,color:"#2A1800",fontWeight:600}}>{s.title}</span>
-      </button>)}
-    </div>
     {steps.map(s=><div key={s.id} id={"st"+s.id}><StepCard step={s} c={c} openShare={openShare}/></div>)}
     <div style={{textAlign:"center",padding:"16px 0",color:"#B0A090",fontSize:11}}>«صلوا كما رأيتموني أصلي» (البخاري 631)</div>
   </div>;
