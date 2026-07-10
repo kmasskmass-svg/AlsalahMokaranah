@@ -1109,33 +1109,31 @@ var D_ijma_wujub = [
 ];
 
 var D_khilaf_wujub = [
-  {name:"قراءة الفاتحة",desc:"هل تعيين الفاتحة بالذات ركن تبطل الصلاة بتركها، أم مجرد واجب يُجبر بسجود السهو، أم يكفي مطلق القراءة؟",linkDisputeId:"d1",
+  {name:"قراءة الفاتحة",desc:"هل تعيين الفاتحة بالذات ركن تبطل الصلاة بتركها، أم مجرد واجب يُجبر بسجود السهو، أم يكفي مطلق القراءة؟",linkDisputeId:"d1",outliers:["hanafi"],
    stances:{hanafi:{label:"الحنفية",color:"#1A56A0",stance:"واجبة لا ركن (يكفي مطلق القراءة)"},maliki:{label:"المالكية",color:"#166534",stance:"ركن — تبطل بتركها"},shafii:{label:"الشافعية",color:"#5B21B6",stance:"ركن — تبطل بتركها"},hanbali:{label:"الحنابلة",color:"#9A3412",stance:"ركن — تبطل بتركها"},ibntaymiyyah:{label:"ابن تيمية",color:"#B45309",stance:"يوافق الجمهور على ركنيتها ووجوب إعادتها لمن أخطأ اجتهاداً معذوراً"},albani:{label:"الألباني",color:"#0F766E",stance:"ركن — يوافق الجمهور، النفي في الحديث نفي للصحة"}}},
-  {name:"تكبيرة الإحرام",desc:"هل هي ركن من أركان الصلاة، أم شرط سابق لها كالطهارة؟",linkDisputeId:"d2",
+  {name:"تكبيرة الإحرام",desc:"هل هي ركن من أركان الصلاة، أم شرط سابق لها كالطهارة؟",linkDisputeId:"d2",outliers:["hanafi"],
    stances:{hanafi:{label:"الحنفية",color:"#1A56A0",stance:"شرط لا ركن"},maliki:{label:"المالكية",color:"#166534",stance:"ركن — فريضة مستقلة"},shafii:{label:"الشافعية",color:"#5B21B6",stance:"ركن"},hanbali:{label:"الحنابلة",color:"#9A3412",stance:"ركن"},ibntaymiyyah:{label:"ابن تيمية",color:"#B45309",stance:"يوافق الجمهور على ركنيتها ضمناً"},albani:{label:"الألباني",color:"#0F766E",stance:"ركن — يوافق الجمهور"}}},
-  {name:"الطمأنينة في الركوع والسجود والاعتدال",desc:"هل الطمأنينة (السكون قدر الذكر الواجب) ركن مستقل تبطل الصلاة بتركها عمداً، أم واجب يُجبر بسجود السهو؟",linkDisputeId:"d3",
+  {name:"الطمأنينة في الركوع والسجود والاعتدال",desc:"هل الطمأنينة (السكون قدر الذكر الواجب) ركن مستقل تبطل الصلاة بتركها عمداً، أم واجب يُجبر بسجود السهو؟",linkDisputeId:"d3",outliers:["hanafi"],
    stances:{hanafi:{label:"الحنفية",color:"#1A56A0",stance:"واجبة لا ركن"},maliki:{label:"المالكية",color:"#166534",stance:"ركن — من فرائض الصلاة"},shafii:{label:"الشافعية",color:"#5B21B6",stance:"ركن"},hanbali:{label:"الحنابلة",color:"#9A3412",stance:"ركن"},ibntaymiyyah:{label:"ابن تيمية",color:"#B45309",stance:"لا يجوز تركها بحال — ركن مستقل"},albani:{label:"الألباني",color:"#0F766E",stance:"ركن — لصراحة حديث المسيء صلاته"}}},
-  {name:"الصلاة على النبي ﷺ في التشهد الأخير",desc:"هل هي ركن، أم واجب مستقل، أم سنة مؤكدة؟",linkDisputeId:"d5",
-   stances:{hanafi:{label:"الحنفية",color:"#1A56A0",stance:"سنة مؤكدة"},maliki:{label:"المالكية",color:"#166534",stance:"سنة مؤكدة"},shafii:{label:"الشافعية",color:"#5B21B6",stance:"ركن"},hanbali:{label:"الحنابلة",color:"#9A3412",stance:"سنة مؤكدة"},ibntaymiyyah:{label:"ابن تيمية",color:"#B45309",stance:"لم يُفرد لها اختياراً صريحاً مستقلاً عن الجمهور"},albani:{label:"الألباني",color:"#0F766E",stance:"واجبة — لا ركن ولا سنة مجردة (موقف وسط)"}}},
-  {name:"التشهد الأول",desc:"هل هو ركن، أم واجب يُجبر بسجود السهو، أم سنة مؤكدة؟",linkDisputeId:"d11",
+  {name:"الصلاة على النبي ﷺ في التشهد الأخير",desc:"هل هي ركن، أم واجب مستقل، أم سنة مؤكدة؟",linkDisputeId:"d5",outliers:["shafii","hanbali"],
+   stances:{hanafi:{label:"الحنفية",color:"#1A56A0",stance:"سنة مؤكدة"},maliki:{label:"المالكية",color:"#166534",stance:"سنة مؤكدة"},shafii:{label:"الشافعية",color:"#5B21B6",stance:"ركن"},hanbali:{label:"الحنابلة",color:"#9A3412",stance:"ركن عند أكثر الحنابلة (الرواية المعتمدة في المذهب)"},ibntaymiyyah:{label:"ابن تيمية",color:"#B45309",stance:"لم يُفرد لها اختياراً صريحاً مستقلاً عن الجمهور"},albani:{label:"الألباني",color:"#0F766E",stance:"واجبة — لا ركن ولا سنة مجردة (موقف وسط)"}}},
+  {name:"التشهد الأول",desc:"هل هو ركن، أم واجب يُجبر بسجود السهو، أم سنة مؤكدة؟",linkDisputeId:"d11",outliers:["hanafi","maliki","shafii","hanbali"],
    stances:{hanafi:{label:"الحنفية",color:"#1A56A0",stance:"واجب"},maliki:{label:"المالكية",color:"#166534",stance:"سنة مؤكدة"},shafii:{label:"الشافعية",color:"#5B21B6",stance:"من الأبعاض (بين الركن والهيئة)"},hanbali:{label:"الحنابلة",color:"#9A3412",stance:"واجب"},ibntaymiyyah:{label:"ابن تيمية",color:"#B45309",stance:"لم يُفرد اختياراً مستقلاً صريحاً هنا"},albani:{label:"الألباني",color:"#0F766E",stance:"واجب — لسجوده ﷺ لسهوه عن تركه"}}},
-  {name:"وضع اليدين حال القيام",desc:"مستحب متفق على أصله بين المذاهب الأربعة (باستثناء رواية السدل المالكية)، لكن الخلاف الحقيقي هنا في محله لا في حكمه (وجوب/استحباب)، فألحقناه هنا لشدة تعدد الأقوال فيه لا لكونه خلاف وجوب حقيقياً.",linkDisputeId:"d8",
-   stances:{hanafi:{label:"الحنفية",color:"#1A56A0",stance:"مستحب — تحت السرة"},maliki:{label:"المالكية",color:"#166534",stance:"السدل هو المشهور (إرسال اليدين) لا القبض"},shafii:{label:"الشافعية",color:"#5B21B6",stance:"مستحب — تحت الصدر فوق السرة"},hanbali:{label:"الحنابلة",color:"#9A3412",stance:"مستحب — تحت السرة عند الأكثر"},ibntaymiyyah:{label:"ابن تيمية",color:"#B45309",stance:"لم يفرد اختياراً في محلها تحديداً"},albani:{label:"الألباني",color:"#0F766E",stance:"مستحب — على الصدر مباشرة (تفرّد بترجيحه)"}}},
-  {name:"★ تسوية الصفوف في الجماعة",desc:"هل تسوية الصفوف مجرد سنة مؤكدة كما هو مشهور المذاهب الأربعة، أم واجبة يأثم تاركها كما رجّح ابن تيمية؟",
+  {name:"★ تسوية الصفوف في الجماعة",desc:"هل تسوية الصفوف مجرد سنة مؤكدة كما هو مشهور المذاهب الأربعة (لا خلاف بينها في ذلك)، أم واجبة يأثم تاركها كما رجّح ابن تيمية وحده من بين من ذُكر هنا؟",outliers:[],
    stances:{hanafi:{label:"الحنفية",color:"#1A56A0",stance:"سنة مؤكدة"},maliki:{label:"المالكية",color:"#166534",stance:"سنة مؤكدة"},shafii:{label:"الشافعية",color:"#5B21B6",stance:"سنة مؤكدة"},hanbali:{label:"الحنابلة",color:"#9A3412",stance:"سنة مؤكدة"},ibntaymiyyah:{label:"ابن تيمية",color:"#B45309",stance:"★ واجبة — لا مجرد مستحبة"},albani:{label:"الألباني",color:"#0F766E",stance:"لم يفرد فيها اختياراً مستقلاً عن الجمهور"}}},
-  {name:"★ اتخاذ السترة للمصلي",desc:"هل السترة مستحبة كما هو مشهور المذاهب الأربعة، أم واجبة كما رجّح الألباني؟",
+  {name:"★ اتخاذ السترة للمصلي",desc:"هل السترة مستحبة كما هو مشهور المذاهب الأربعة (لا خلاف بينها في ذلك)، أم واجبة كما رجّح الألباني وحده من بين من ذُكر هنا؟",outliers:[],
    stances:{hanafi:{label:"الحنفية",color:"#1A56A0",stance:"مستحبة"},maliki:{label:"المالكية",color:"#166534",stance:"مستحبة"},shafii:{label:"الشافعية",color:"#5B21B6",stance:"مستحبة"},hanbali:{label:"الحنابلة",color:"#9A3412",stance:"مستحبة"},ibntaymiyyah:{label:"ابن تيمية",color:"#B45309",stance:"لم يفرد فيها اختياراً مستقلاً عن الجمهور"},albani:{label:"الألباني",color:"#0F766E",stance:"★ واجبة — لا مجرد مستحبة"}}},
-  {name:"★ صلاة الجماعة للرجال",desc:"هل حضور الجماعة في المسجد سنة مؤكدة أو فرض كفاية كما هو مشهور المذاهب الثلاثة، أم فرض عين على كل قادر يسمع النداء كما رجّح الحنابلة وابن تيمية والألباني؟",
+  {name:"★ صلاة الجماعة للرجال",desc:"هل حضور الجماعة في المسجد سنة مؤكدة أو فرض كفاية كما هو مشهور المذاهب الثلاثة، أم فرض عين على كل قادر يسمع النداء كما رجّح الحنابلة وابن تيمية والألباني؟",outliers:["hanafi","maliki","shafii","hanbali"],
    stances:{hanafi:{label:"الحنفية",color:"#1A56A0",stance:"سنة مؤكدة قريبة من الوجوب"},maliki:{label:"المالكية",color:"#166534",stance:"سنة مؤكدة"},shafii:{label:"الشافعية",color:"#5B21B6",stance:"فرض كفاية"},hanbali:{label:"الحنابلة",color:"#9A3412",stance:"★ فرض عين"},ibntaymiyyah:{label:"ابن تيمية",color:"#B45309",stance:"★ فرض عين — رجّحه صراحة"},albani:{label:"الألباني",color:"#0F766E",stance:"★ فرض عين، ويشترط أداءها في المسجد تحديداً"}}},
-  {name:"★ صلاة الوتر",desc:"هل الوتر سنة مؤكدة كما هو مشهور جمهور المذاهب، أم واجب مطلقاً كما هو مذهب الحنفية، أم واجب على من يتهجد بالليل خاصة كما فصّل ابن تيمية؟",
+  {name:"★ صلاة الوتر",desc:"هل الوتر سنة مؤكدة كما هو مشهور جمهور المذاهب، أم واجب مطلقاً كما هو مذهب الحنفية وحده، أم واجب على من يتهجد بالليل خاصة كما فصّل ابن تيمية؟",outliers:["hanafi"],
    stances:{hanafi:{label:"الحنفية",color:"#1A56A0",stance:"★ واجب مطلقاً"},maliki:{label:"المالكية",color:"#166534",stance:"سنة مؤكدة (آكد السنن)"},shafii:{label:"الشافعية",color:"#5B21B6",stance:"سنة مؤكدة"},hanbali:{label:"الحنابلة",color:"#9A3412",stance:"سنة مؤكدة (آكد التطوعات)"},ibntaymiyyah:{label:"ابن تيمية",color:"#B45309",stance:"★ واجب خاصة على من يتهجد بالليل"},albani:{label:"الألباني",color:"#0F766E",stance:"سنة مؤكدة جداً تقارب الوجوب دون التصريح به"}}},
-  {name:"تكبيرات الانتقال (غير تكبيرة الإحرام)",desc:"هل التكبير عند كل خفض ورفع (الركوع والسجود والرفع منهما) واجب مستقل، أم سنة فحسب؟",
+  {name:"تكبيرات الانتقال (غير تكبيرة الإحرام)",desc:"هل التكبير عند كل خفض ورفع (الركوع والسجود والرفع منهما) واجب مستقل، أم سنة فحسب؟",outliers:["hanafi","maliki","shafii","hanbali"],
    stances:{hanafi:{label:"الحنفية",color:"#1A56A0",stance:"واجبة"},maliki:{label:"المالكية",color:"#166534",stance:"سنة مؤكدة"},shafii:{label:"الشافعية",color:"#5B21B6",stance:"من هيئات الصلاة (سنة)"},hanbali:{label:"الحنابلة",color:"#9A3412",stance:"واجبة"},ibntaymiyyah:{label:"ابن تيمية",color:"#B45309",stance:"ثابت تكبيره ﷺ في كل خفض ورفع في الصحيحين، لم يفرد حكمها استقلالاً"},albani:{label:"الألباني",color:"#0F766E",stance:"★ واجبة — لصراحة الأمر المتكرر في حديث المسيء صلاته"}}},
-  {name:"القنوت في صلاة الفجر",desc:"هل هو سنة راتبة دائمة في كل صلاة فجر كما هو مذهب الشافعية، أم خاص بالنوازل فقط كما هو قول الجمهور؟",linkDisputeId:"d6",
+  {name:"القنوت في صلاة الفجر",desc:"هل هو سنة راتبة دائمة في كل صلاة فجر كما هو مذهب الشافعية وحده، أم خاص بالنوازل فقط كما هو قول جمهور من ذُكر هنا؟",linkDisputeId:"d6",outliers:["shafii"],
    stances:{hanafi:{label:"الحنفية",color:"#1A56A0",stance:"للنوازل فقط"},maliki:{label:"المالكية",color:"#166534",stance:"يُترك في غير النوازل (مشهور المذهب)"},shafii:{label:"الشافعية",color:"#5B21B6",stance:"★ سنة راتبة دائمة في الفجر"},hanbali:{label:"الحنابلة",color:"#9A3412",stance:"للنوازل فقط"},ibntaymiyyah:{label:"ابن تيمية",color:"#B45309",stance:"للنوازل فقط في جميع الصلوات، ويُترك بزوال سببها"},albani:{label:"الألباني",color:"#0F766E",stance:"للنوازل فقط — يوافق الجمهور"}}},
-  {name:"★ تسبيح الركوع والسجود: المرة الأولى مقابل الزيادة عليها",desc:"قول «سبحان ربي العظيم» في الركوع و«سبحان ربي الأعلى» في السجود: هل مرة واحدة منه واجبة يأثم تاركها، أم الجميع مستحب من أصله؟ التفصيل الدقيق: المرة الواحدة الأولى واجبة عند الحنابلة تحديداً (تُجزئ وتُجبر بسجود السهو عند تركها)، وما زاد عليها إلى الثلاث فأكثر مستحب باتفاق الجميع دون خلاف.",
+  {name:"★ تسبيح الركوع والسجود: المرة الأولى مقابل الزيادة عليها",desc:"قول «سبحان ربي العظيم» في الركوع و«سبحان ربي الأعلى» في السجود: هل مرة واحدة منه واجبة يأثم تاركها، أم الجميع مستحب من أصله؟ التفصيل الدقيق: المرة الواحدة الأولى واجبة عند الحنابلة وحدهم من بين المذاهب الأربعة (تُجزئ وتُجبر بسجود السهو عند تركها)، وما زاد عليها إلى الثلاث فأكثر مستحب باتفاق الجميع دون خلاف.",outliers:["hanbali"],
    stances:{hanafi:{label:"الحنفية",color:"#1A56A0",stance:"الجميع سنة، ولا وجوب فيها ولو مرة واحدة"},maliki:{label:"المالكية",color:"#166534",stance:"الجميع من الفضائل المستحبة خاصة (دون مرتبة السنن المؤكدة)"},shafii:{label:"الشافعية",color:"#5B21B6",stance:"الجميع سنة، لا وجوب فيها ولو مرة"},hanbali:{label:"الحنابلة",color:"#9A3412",stance:"★ المرة الأولى واجبة، وأدنى الكمال ثلاث مستحبة"},ibntaymiyyah:{label:"ابن تيمية",color:"#B45309",stance:"لم يفرد اختياراً مستقلاً في أصل الوجوب هنا"},albani:{label:"الألباني",color:"#0F766E",stance:"سنة من أصلها، ولا حدّ لأكثرها"}}},
-  {name:"★ سجود التلاوة: واجب أم سنة؟",desc:"عند سماع أو قراءة آية سجدة: هل يجب السجود فوراً، أم هو مستحب فحسب لا إثم في تركه؟",
+  {name:"★ سجود التلاوة: واجب أم سنة؟",desc:"عند سماع أو قراءة آية سجدة: هل يجب السجود فوراً كما هو مذهب الحنفية وحدهم، أم هو مستحب فحسب عند جمهور من ذُكر هنا؟",outliers:["hanafi"],
    stances:{hanafi:{label:"الحنفية",color:"#1A56A0",stance:"★ واجب على الفور على القارئ والسامع مطلقاً"},maliki:{label:"المالكية",color:"#166534",stance:"سنة مؤكدة، بحصر مواضعه بأحد عشر موضعاً"},shafii:{label:"الشافعية",color:"#5B21B6",stance:"سنة مؤكدة، بمواضعه الأربعة عشر"},hanbali:{label:"الحنابلة",color:"#9A3412",stance:"سنة مؤكدة، بمواضعه الخمسة عشر"},ibntaymiyyah:{label:"ابن تيمية",color:"#B45309",stance:"لم يفرد اختياراً مستقلاً في أصل حكمه هنا"},albani:{label:"الألباني",color:"#0F766E",stance:"سنة مؤكدة — يوافق الجمهور، لا الحنفية"}}},
 ];
 
@@ -1193,7 +1191,14 @@ var D_adhan = {
        desc:"اشترط الأئمة الثلاثة في المؤذن أن يكون مسلماً عاقلاً ذكراً. وخالف الحنفية فقالوا: إن هذه الشروط ليست شروطاً لصحة الأذان نفسه، فيصح أذان المرأة والخنثى والكافر والمجنون والسكران من حيث سقوط فرضية الكفاية عن أهل الحي بأذانهم، غير أنه لا يُعتدّ به لدخول الوقت أو الاعتماد عليه في أحكام أخرى، ويُكره أن يُتخذ هؤلاء مؤذنين ابتداءً.",
        taleel:"التعليل: قال الجزيري ناقلاً مذهب الحنفية: الأذان إعلام محض، وصحة الإعلام لا تتوقف على صفة المُعلِم كإسلامه أو عقله، فيحصل به سقوط الطلب عن الباقين وإن كُره اتخاذ من ذُكر مؤذناً ابتداءً لما فيه من الإخلال بمقصود إظهار شعيرة الإسلام على أكمل وجه.",
        daleel:[{t:"h",text:"إِذَا حَضَرَتِ الصَّلَاةُ فَلْيُؤَذِّنْ لَكُمْ أَحَدُكُمْ",ref:"البخاري (628)، مسلم (674) — لفظ عام لم يُقيَّد بصفة معينة في المؤذن"}],
-       src:[{book:"الفقه على المذاهب الأربعة",auth:"عبد الرحمن الجزيري",vol:"ج1",pg:"ص285",ed:"دار إحياء التراث العربي"}]}
+       src:[{book:"الفقه على المذاهب الأربعة",auth:"عبد الرحمن الجزيري",vol:"ج1",pg:"ص285",ed:"دار إحياء التراث العربي"}]},
+      {name:"الأذان والإقامة لقضاء الفوائت",
+       stance:"يُسنّ الأذان للأولى فقط، والإقامة لكل فائتة",
+       desc:"من عليه صلوات فائتة يقضيها، يُسنّ أن يؤذن للفريضة الأولى منها فحسب ثم يقيم لكل واحدة من البقية دون إعادة الأذان، وإن أذّن وأقام لكل واحدة منها كان ذلك مندوباً جائزاً لا واجباً. أما من كان يقضي فوائته داخل المسجد، فلا يؤذن لها ولا يقيم إخفاءً لأمره، لأن تأخير الصلاة عن وقتها معصية لا يُجاهَر بها.",
+       taleel:"التعليل: الأذان شرع للإعلام بدخول الوقت وجمع الناس للصلاة الحاضرة، وهذا المعنى متحقق مرة واحدة في مجموع الفوائت المتتابعة فاكتُفي به للأولى، بخلاف الإقامة فإنها شُرعت للشروع فمست الحاجة إليها عند كل فريضة على حدة.",
+       daleel:[{t:"h",text:"أَمَرَ بِلَالًا فَأَذَّنَ ثُمَّ أَقَامَ فَصَلَّى الظُّهْرَ، ثُمَّ أَمَرَهُ فَأَقَامَ فَصَلَّى الْعَصْرَ، وَلَمْ يُؤَذِّنْ إِلَّا أَوَّلَ مَرَّةٍ",ref:"رواه مسلم، من حديث قضاء صلاة الخندق الفائتة"}],
+       src:[{book:"المفصل في الفقه الحنفي — العبادات",auth:"محمد ماجد عتر",vol:"",pg:"",ed:"دار الفكر، دمشق"}],
+       radd:"لا خلاف بين الحنفية والجمهور في مشروعية الأذان للأولى والإقامة للبقية عند تتابع القضاء؛ وينفرد الحنفية بالتنصيص على إخفاء الأذان والإقامة لمن يقضي داخل المسجد سداً لذريعة المجاهرة بترك الصلاة عن وقتها."}
     ]
   },
   maliki:{
@@ -3702,11 +3707,11 @@ function buildMasterIndex(idx){
   arr.sort((a,b)=>{const x=normAr(a.title),y=normAr(b.title);return x<y?-1:x>y?1:0;});
   return arr;
 }
-const VIEW_LABEL={prayer:"المذاهب الأربعة",adhan:"الأذان والإقامة",jamaa:"صلاة الجماعة",mubtilat:"مبطلات الصلاة",steps:"صفة الصلاة",disputes:"الخلافات",ijma_wujub:"متفق على وجوبها",khilaf_wujub:"مختلف فيها: وجوب أم استحباب",ijma_istihbab:"متفق على استحبابها",albani:"اختيارات الألباني",ibntaymiyyah:"اختيارات ابن تيمية",index:"الفهرس الكامل",about:"لماذا هذا التطبيق؟"};
+const VIEW_LABEL={prayer:"المذاهب الأربعة",adhan:"الأذان والإقامة",jamaa:"صلاة الجماعة",mubtilat:"مبطلات الصلاة",steps:"صفة الصلاة",disputes:"الخلافات",ijma_wujub:"متفق على وجوبها",khilaf_wujub:"مختلف فيها: وجوب أم استحباب",ijma_istihbab:"متفق على استحبابها",compare:"مقارنة كل مذهب بالبقية",albani:"اختيارات الألباني",ibntaymiyyah:"اختيارات ابن تيمية",index:"الفهرس الكامل",about:"لماذا هذا التطبيق؟"};
 const NAV_GROUPS=[
   {label:"الصلاة والمذاهب",items:[["prayer","🕌","المذاهب الأربعة"],["steps","🔄","الصلاة من التكبير إلى السلام"]]},
   {label:"الأذان والجماعة",items:[["adhan","📢","الأذان والإقامة"],["jamaa","👥","صلاة الجماعة"],["mubtilat","🚫","مبطلات الصلاة"]]},
-  {label:"تصنيف الأحكام",items:[["ijma_wujub","✅","متفق على وجوبها"],["khilaf_wujub","⚡","مختلف فيها: وجوب أم استحباب"],["disputes","⚔️","الخلافات (التفصيل الكامل)"],["ijma_istihbab","🌟","متفق على استحبابها"]]},
+  {label:"تصنيف الأحكام",items:[["ijma_wujub","✅","متفق على وجوبها"],["khilaf_wujub","⚡","مختلف فيها: وجوب أم استحباب"],["disputes","⚔️","الخلافات (التفصيل الكامل)"],["ijma_istihbab","🌟","متفق على استحبابها"],["compare","🔀","مقارنة كل مذهب بالبقية"]]},
   {label:"اختيارات فردية",items:[["ibntaymiyyah","📘","اختيارات ابن تيمية"],["albani","📗","اختيارات الألباني"]]},
   {label:"أدوات",items:[["index","📇","الفهرس الكامل"],["about","ℹ️","لماذا هذا التطبيق؟"]]},
 ];
@@ -4239,6 +4244,64 @@ function ClassificationSimpleView({items,c,title,subtitle,gradient,accent,openSh
 }
 
 /* ── ClassificationKhilafView (المسائل المختلف فيها بين الوجوب والاستحباب) ── */
+/* ── MadhhabCompareView: مقارنة الشروط والأركان والواجبات بين كل مذهب وبقية المذاهب ── */
+function MadhhabCompareView({c,openShare}){
+  const [base,setBase]=useState("hanafi");
+  const order=["hanafi","maliki","shafii","hanbali"];
+  const labels={hanafi:"الحنفي",maliki:"المالكي",shafii:"الشافعي",hanbali:"الحنبلي"};
+  const fullLabels={hanafi:"الحنفية",maliki:"المالكية",shafii:"الشافعية",hanbali:"الحنابلة"};
+  const ijma=typeof D_ijma_wujub!=="undefined"?D_ijma_wujub:[];
+  const khilaf=typeof D_khilaf_wujub!=="undefined"?D_khilaf_wujub:[];
+  const others=order.filter(k=>k!==base);
+  const khilafForBase=khilaf.filter(it=>it.outliers&&it.outliers.includes(base));
+
+  const shareAgree=()=>openShare&&openShare({title:"اتفاق "+fullLabels[base]+" مع بقية المذاهب في الشروط والأركان والواجبات",sections:ijma.map((it,i)=>({id:"a"+i,label:it.name,color:"#1A5C40",fields:[{h:it.type||"",t:it.desc}],pre:true}))});
+  const shareDiffer=()=>openShare&&openShare({title:"اختلاف "+fullLabels[base]+" مع بقية المذاهب في الشروط والأركان والواجبات",sections:khilafForBase.map((it,i)=>({id:"d"+i,label:it.name,color:MC[base],fields:[{h:fullLabels[base],t:it.stances[base].stance},...others.filter(k=>it.stances[k]).map(k=>({h:fullLabels[k],t:it.stances[k].stance}))],pre:true}))});
+
+  return<div style={{maxWidth:920,margin:"0 auto",padding:16}}>
+    <div style={{background:"linear-gradient(135deg,#1C1208,#2D1B00)",borderRadius:12,padding:"14px 18px",marginBottom:14,textAlign:"center"}}>
+      <div style={{fontFamily:"'"+c.tf+"',serif",fontSize:19,fontWeight:700,color:"#C9A84C",marginBottom:4}}>مقارنة الشروط والأركان والواجبات بين المذاهب</div>
+      <div style={{fontFamily:"'"+c.bf+"',sans-serif",color:"#C9A84C",fontSize:12,opacity:.85}}>اختر مذهباً لترى ما يتفق فيه مع بقية المذاهب الثلاثة وما يختلف فيه عنها</div>
+    </div>
+    <div style={{display:"flex",gap:6,marginBottom:16,flexWrap:"wrap",justifyContent:"center"}}>
+      {order.map(k=><button key={k} onClick={()=>setBase(k)} style={{padding:"9px 20px",borderRadius:20,border:"2px solid "+MC[k],background:base===k?MC[k]:"transparent",color:base===k?"#fff":MC[k],fontWeight:700,fontSize:14,cursor:"pointer",fontFamily:"'"+c.tf+"',serif"}}>{labels[k]}</button>)}
+    </div>
+
+    <div style={{background:"linear-gradient(135deg,#0B3322,#1A5C40)",borderRadius:10,padding:"10px 16px",marginBottom:10,display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:6}}>
+      <div style={{fontFamily:"'"+c.tf+"',serif",fontSize:16,fontWeight:700,color:"#fff"}}>✅ الاتفاق — ما يتفق عليه {fullLabels[base]} مع بقية المذاهب</div>
+      <button className="ab" onClick={shareAgree} style={{color:"#fff",borderColor:"rgba(255,255,255,.5)"}}>📤 مشاركة</button>
+    </div>
+    {ijma.map((it,i)=><div key={i} className="ch" style={{background:"#fff",borderRadius:9,padding:"11px 15px",marginBottom:7,borderRight:"4px solid #1A5C40",boxShadow:"0 1px 5px rgba(0,0,0,.06)"}}>
+      <div style={{display:"flex",alignItems:"center",gap:7,marginBottom:4,flexWrap:"wrap"}}>
+        <span style={{fontFamily:"'"+c.tf+"',serif",fontSize:c.ts-1,fontWeight:700,color:"#1A0F00"}}>{it.name}</span>
+        {it.type&&<span style={{fontSize:10,fontWeight:700,background:"#1A5C40",color:"#fff",borderRadius:5,padding:"2px 8px"}}>{it.type}</span>}
+      </div>
+      <div style={{fontFamily:"'"+c.bf+"',sans-serif",fontSize:c.bs-1,color:"#2A1800",lineHeight:1.75}}>{it.desc}</div>
+    </div>)}
+
+    <div style={{background:"linear-gradient(135deg,#4A1D0A,#7A2E0F)",borderRadius:10,padding:"10px 16px",margin:"18px 0 10px",display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:6}}>
+      <div style={{fontFamily:"'"+c.tf+"',serif",fontSize:16,fontWeight:700,color:"#fff"}}>⚡ الاختلاف — ما ينفرد به {fullLabels[base]} عن بقية المذاهب</div>
+      <button className="ab" onClick={shareDiffer} style={{color:"#fff",borderColor:"rgba(255,255,255,.5)"}}>📤 مشاركة</button>
+    </div>
+    {khilafForBase.length===0&&<div style={{textAlign:"center",color:"#888",padding:20,fontSize:13}}>لا توجد مسائل خلافية مسجّلة لهذا المذهب ضمن هذه القائمة</div>}
+    {khilafForBase.map((it,i)=><div key={i} className="ch" style={{background:"#fff",borderRadius:9,padding:"11px 15px",marginBottom:9,borderRight:"4px solid "+MC[base],boxShadow:"0 1px 5px rgba(0,0,0,.06)"}}>
+      <div style={{fontFamily:"'"+c.tf+"',serif",fontSize:c.ts-1,fontWeight:700,color:"#1A0F00",marginBottom:6}}>{it.name}</div>
+      <div style={{background:MC[base]+"14",borderRight:"3px solid "+MC[base],borderRadius:6,padding:"6px 10px",marginBottom:6}}>
+        <span style={{fontSize:11,fontWeight:700,color:MC[base]}}>{fullLabels[base]}: </span>
+        <span style={{fontSize:12,color:"#2A1800"}}>{it.stances[base].stance}</span>
+      </div>
+      <div style={{fontSize:10,color:"#999",marginBottom:4}}>بقية المذاهب:</div>
+      <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(200px,1fr))",gap:6}}>
+        {others.filter(k=>it.stances[k]).map(k=><div key={k} style={{background:"#FAF6EF",borderRadius:6,padding:"5px 9px",borderRight:"3px solid "+MC[k]}}>
+          <span style={{fontSize:10.5,fontWeight:700,color:MC[k]}}>{fullLabels[k]}: </span>
+          <span style={{fontSize:11,color:"#3A2A15"}}>{it.stances[k].stance}</span>
+        </div>)}
+      </div>
+    </div>)}
+  </div>;
+}
+
+
 function ClassificationKhilafView({items,c,openShare,goToDispute,jump}){
   const order=["hanafi","maliki","shafii","hanbali","ibntaymiyyah","albani"];
   const share=(it)=>openShare&&openShare({title:it.name,sections:order.filter(k=>it.stances[k]).map(k=>({id:k,label:it.stances[k].label,color:it.stances[k].color,fields:[{h:"الموقف",t:it.stances[k].stance}],pre:true}))});
@@ -4451,6 +4514,7 @@ function App(){
     {view==="mubtilat"&&<MadhabSubView data={typeof D_mubtilat!=="undefined"?D_mubtilat:{}} disputes={[]} sectionLabel="مبطلات الصلاة" dataKey="mubtilat" c={c} toast={showToast} openShare={openShare} jump={view==="mubtilat"?jump:null}/>}
     {view==="ijma_wujub"&&<ClassificationSimpleView items={typeof D_ijma_wujub!=="undefined"?D_ijma_wujub:[]} c={c} title="المسائل المتفق على وجوبها في الصلاة" subtitle="شرط أو ركن أو واجب — لا خلاف معتبر بين المذاهب الأربعة وابن تيمية والألباني" gradient="linear-gradient(135deg,#0B3322,#1A5C40,#0B3322)" accent="#1A5C40" openShare={openShare} viewKey="ijma_wujub" jump={view==="ijma_wujub"?jump:null}/>}
     {view==="khilaf_wujub"&&<ClassificationKhilafView items={typeof D_khilaf_wujub!=="undefined"?D_khilaf_wujub:[]} c={c} openShare={openShare} goToDispute={goToDispute} jump={view==="khilaf_wujub"?jump:null}/>}
+    {view==="compare"&&<MadhhabCompareView c={c} openShare={openShare}/>}
     {view==="disputes"&&<DisputesView c={c} openShare={openShare} jump={view==="disputes"?jump:null}/>}
     {view==="ijma_istihbab"&&<ClassificationSimpleView items={typeof D_ijma_istihbab!=="undefined"?D_ijma_istihbab:[]} c={c} title="المسائل المتفق على استحبابها" subtitle="سنة أو مستحب — لا يقول أحد من المذاهب الأربعة ولا ابن تيمية ولا الألباني بوجوبها" gradient="linear-gradient(135deg,#5B21B6,#7C3AED,#5B21B6)" accent="#5B21B6" openShare={openShare} viewKey="ijma_istihbab" jump={view==="ijma_istihbab"?jump:null}/>}
     {view==="ibntaymiyyah"&&<StandaloneEntityView entity={typeof D_ibntaymiyyah!=="undefined"?D_ibntaymiyyah:null} c={c} toast={showToast} openShare={openShare} jump={view==="ibntaymiyyah"?jump:null}/>}
